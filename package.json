@@ -51,6 +51,7 @@
     "@vue/cli-plugin-babel": "3.5.1",
     "@vue/cli-service": "^3.11.0",
     "babel-plugin-import": "^1.11.0",
+    "css-loader": "^3.2.0",
     "mini-types": "*",
     "miniprogram-api-typings": "^2.8.0-2",
     "postcss-comment": "^2.0.0",

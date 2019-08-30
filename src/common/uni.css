@@ -1,0 +1,69 @@
+@font-face {
+	font-family: uniicons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('./static/uni.ttf') format('truetype');
+}
+/*通用 */
+view{
+	font-size:28rpx;
+	line-height:1.8;
+}
+progress, checkbox-group{
+	width: 100%;
+}
+form {
+	width: 100%;
+}
+.uni-flex {
+	display: flex;
+	flex-direction: row;
+}
+.uni-flex-item {
+	flex: 1;
+}
+.uni-row {
+	flex-direction: row;
+}
+.uni-column {
+	flex-direction: column;
+}
+.uni-link{
+	color:#576B95;
+	font-size:26rpx;
+}
+.uni-center{
+	text-align:center;
+}
+.uni-inline-item{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+}
+.uni-inline-item text{
+	margin-right: 20rpx;
+}
+.uni-inline-item text:last-child{
+	margin-right: 0rpx;
+	margin-left: 20rpx;
+}
+/**
+ * fontsize
+ */
+.f15{
+	font-size: 15rpx;
+}
+/**
+ * color
+ */
+.c-white{
+	color: white;
+}
+/**
+ * page
+ */
+.page-head{
+	height: 96rpx;
+	align-items: center;
+	padding: 0 20rpx 0 20rpx;
+}

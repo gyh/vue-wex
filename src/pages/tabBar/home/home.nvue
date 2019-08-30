@@ -1,0 +1,18 @@
+<template>
+	<div class="uni-flex uni-column">
+		<page-search-head></page-search-head>
+	</div>
+</template>
+<script>
+	export default {
+		name: 'home',
+		props: {},
+		data() {
+			return {
+				
+			};
+		},
+	};
+</script>
+<style scoped>
+</style>

@@ -1,0 +1,25 @@
+<template>
+	<div>
+		<div class="head">
+			<text>购物车</text>
+			<button>管理</button>
+		</div>
+	</div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>
