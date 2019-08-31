@@ -50,8 +50,17 @@ form {
 /**
  * fontsize
  */
+.f16{
+	font-size: 32rpx;
+}
 .f15{
-	font-size: 15rpx;
+	font-size: 30rpx;
+}
+.f14{
+	font-size: 28rpx;
+}
+.f13{
+	font-size: 26rpx;
 }
 /**
  * color

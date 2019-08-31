@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<page-swiper></page-swiper>
 	</view>
 </template>
 
