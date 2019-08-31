@@ -4,7 +4,7 @@
 			console.log("onlaunch");
 		},
 		onShow: function() {
-			console.log("App Show");
+			console.log("App Show1");
 		},
 		onHide: function() {
 			console.log("App Hide");
