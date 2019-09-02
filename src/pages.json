@@ -18,9 +18,9 @@
 		"path": "pages/tabBar/shoppingcar/shoppingcar",
 		"style": {
 			"navigationBarTitleText": "购物车",
-			"app-plus":{
+			"app-plus": {
 				//#ifdef H5
-				"titleNView":false
+				"titleNView": false
 				//#endif 
 			}
 		}
@@ -29,8 +29,17 @@
 		"style": {
 			"navigationBarTitleText": "我的"
 		}
-	}    
-    ],
+	}, {
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"app-plus": {
+				//#ifdef H5
+				"titleNView": false
+				//#endif 
+			}
+		}
+	}],
 	"tabBar": {
 		"color": "#7A7E83",
 		"selectedColor": "#5d656b",

@@ -2,7 +2,7 @@
 	<view>
 		<swiper indicator-dots="true" autoplay="true">
 			<swiper-item item-id="1">
-				<image class="swiper-img" mode="aspectFill" src="http://pic33.nipic.com/20131007/13639685_123501617185_2.jpg"
+				<image class="swiper-img" mode="aspectFill" src="http://img2.imgtn.bdimg.com/it/u=4064075977,3738371861&fm=26&gp=0.jpg"
 				 lazy-load="true"></image>
 			</swiper-item>
 			<swiper-item item-id="2">

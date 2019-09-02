@@ -11,13 +11,21 @@
 				 <text class="f13">主营：主营类目,类目名称,类目</text>
 			 </view>
 		</div>
-		<view class="mall-goods"></view>
+		<scroll-view class="mall-goods" scroll-x="true">
+			<view class="mall-goods-item" v-for="i in [1,2,3,4,5,6,7,8]" :key="i">
+				<goods-v></goods-v>
+			</view>
+		</scroll-view>
 	</view>
 </template>
 
 <script>
+	import goodsV from '@/components/good-item-v.vue'
 	export default {
 		name:"page-mall-item",
+		components:{
+			goodsV:goodsV
+		},
 		data() {
 			return {
 
@@ -48,4 +56,14 @@
 		height: 150rpx;
 		margin-right: 20rpx;
 	}
+	.mall-goods{
+		margin-top:50rpx;
+		white-space: nowrap;
+		width: 100%;
+	}
+	.mall-goods-item{
+		display: inline-block;
+		margin-left: 15rpx;
+	}
+	
 </style>

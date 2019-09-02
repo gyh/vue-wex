@@ -1,26 +1,31 @@
 <template>
-	<div class="uni-flex uni-column">
+	<scroll-view class="uni-flex uni-column" scroll-y="true">
 		<page-search-head></page-search-head>
 		<page-swiper></page-swiper>
 		<operationItem></operationItem>
-		<page-mall-item></page-mall-item>
-	</div>
+		<mall-list></mall-list>
+	</scroll-view>
 </template>
 <script>
-	import pageMallItem from '@/components/page-mall-item.vue'
+	import mallList from '@/components/mall-list.vue'
 	import operationItem from '@/components/operationItem.vue';
 	export default {
 		name: 'home',
 		props: {},
 		components: {
-			pageMallItem,
-			operationItem
+			operationItem,
+			mallList
 		},
 		data() {
 			return {
 				
 			};
 		},
+		created() {
+		
+		},
+		methods: {
+		}
 	};
 </script>
 <style scoped>
