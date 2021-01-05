@@ -33,7 +33,7 @@
     "@dcloudio/uni-mp-toutiao": "*",
     "@dcloudio/uni-mp-weixin": "*",
     "@dcloudio/uni-stat": "*",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.10",
